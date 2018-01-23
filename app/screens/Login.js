@@ -10,6 +10,9 @@ import {
 import { NavigationActions } from 'react-navigation';
 import Spotify from 'react-native-spotify';
 
+/*
+*/
+
 let spotifyOptions = {
   "clientID": "69708bf2b35e4cc2b208fafa600ce9a9",
   "sessionUserDefaultsKey": "SpotifySession",
