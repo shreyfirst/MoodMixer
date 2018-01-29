@@ -1,7 +1,9 @@
 rootProject.name = 'MoodMixer'
-include ':react-native-camera'
-project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+include ':@puradox/react-native-spotify'
+project(':@puradox/react-native-spotify').projectDir = new File(rootProject.projectDir, '../node_modules/@puradox/react-native-spotify/android')
 include ':react-native-spotify'
 project(':react-native-spotify').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-spotify/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-camera/android')
 
 include ':app'
